@@ -1,0 +1,9 @@
+name: exp
+
+on:
+  [push]
+jobs:
+  call_test:
+    uses: ./test.yaml
+    
+
