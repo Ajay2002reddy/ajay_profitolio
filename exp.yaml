@@ -1,13 +1,13 @@
-name: exp
+# name: exp
 
-on:
-  [push]
-  schedule:
-    -cron '* * * * *'
+# on:
+#   [push]
+#   schedule:
+#     -cron '* * * * *'
      
-jobs:
-  call_test:
-    uses: ./text.yaml
-    echo: "exp"
+# jobs:
+#   call_test:
+#     uses: ./text.yaml
+#     echo: "exp"
     
 
