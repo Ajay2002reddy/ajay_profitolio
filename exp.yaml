@@ -4,6 +4,6 @@ on:
   [push]
 jobs:
   call_test:
-    uses: ./test.yaml
+    uses: ./text.yaml
     
 
